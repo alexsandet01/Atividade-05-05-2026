@@ -1,0 +1,81 @@
+h1{
+    font-size: 2.5em;
+    color: #9c27b0;
+    text-shadow: 0 0 5px #9c27b0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: url("./Imagens/Fundo.avif") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* escurecer o fundo (deixa profissional) */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px #9c27b0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: #9c27b0;
+    color: white;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e040fb;
+}
+
+.carrinho {
+    margin-left: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px #9c27b0;
+}
+
+
+
